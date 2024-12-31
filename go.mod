@@ -1,4 +1,4 @@
-module github.com/evmos/evmos-ledger-go
+module github.com/GPTx-global/evmos-ledger-go
 
 go 1.19
 
