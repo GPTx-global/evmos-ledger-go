@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
+	"github.com/GPTx-global/evmos-ledger-go/accounts"
 	gethaccounts "github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/evmos/evmos-ledger-go/accounts"
 	usb "github.com/zondax/hid"
 )
 

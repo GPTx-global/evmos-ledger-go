@@ -19,10 +19,10 @@ import (
 	auxTx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/evmos/evmos-ledger-go/accounts"
-	"github.com/evmos/evmos-ledger-go/ledger"
-	"github.com/evmos/evmos-ledger-go/ledger/mocks"
-	"github.com/evmos/evmos-ledger-go/usbwallet"
+	"github.com/GPTx-global/evmos-ledger-go/accounts"
+	"github.com/GPTx-global/evmos-ledger-go/ledger"
+	"github.com/GPTx-global/evmos-ledger-go/ledger/mocks"
+	"github.com/GPTx-global/evmos-ledger-go/usbwallet"
 )
 
 type LedgerTestSuite struct {

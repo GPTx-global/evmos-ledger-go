@@ -4,7 +4,7 @@ package mocks
 
 import (
 	apitypes "github.com/ethereum/go-ethereum/signer/core/apitypes"
-	accounts "github.com/evmos/evmos-ledger-go/accounts"
+	accounts "github.com/GPTx-global/evmos-ledger-go/accounts"
 
 	big "math/big"
 

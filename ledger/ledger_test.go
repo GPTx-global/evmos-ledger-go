@@ -1,6 +1,8 @@
 package ledger_test
 
 import (
+	"github.com/GPTx-global/evmos-ledger-go/accounts"
+	"github.com/GPTx-global/evmos-ledger-go/ledger"
 	"github.com/GPTx-global/guru/app"
 	"github.com/GPTx-global/guru/encoding"
 	"github.com/GPTx-global/guru/ethereum/eip712"
@@ -8,8 +10,6 @@ import (
 	gethaccounts "github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/evmos-ledger-go/accounts"
-	"github.com/evmos/evmos-ledger-go/ledger"
 )
 
 // Test Mnemonic:

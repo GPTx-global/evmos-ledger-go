@@ -4,11 +4,11 @@ import (
 	"crypto/ecdsa"
 	"errors"
 
+	"github.com/GPTx-global/evmos-ledger-go/accounts"
+	"github.com/GPTx-global/evmos-ledger-go/ledger/mocks"
 	"github.com/GPTx-global/guru/ethereum/eip712"
 	gethaccounts "github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/evmos-ledger-go/accounts"
-	"github.com/evmos/evmos-ledger-go/ledger/mocks"
 )
 
 func RegisterDerive(mockWallet *mocks.Wallet, addr common.Address, publicKey *ecdsa.PublicKey) {

@@ -4,7 +4,7 @@ VERSION ?= $(shell echo $(shell git describe --tags --always) | sed 's/^v//')
 COMMIT := $(shell git log -1 --format='%H')
 LEDGER_ENABLED ?= true
 BUILDDIR ?= $(CURDIR)/build
-HTTPS_GIT := https://github.com/evmos/evmos-legder-go.git
+HTTPS_GIT := https://github.com/GPTx-global/evmos-ledger-go.git
 COMMIT_HASH := $(shell git rev-parse --short=7 HEAD)
 DOCKER_TAG := $(COMMIT_HASH)
 # e2e env
