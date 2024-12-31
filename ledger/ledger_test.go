@@ -1,15 +1,15 @@
 package ledger_test
 
 import (
+	"github.com/GPTx-global/guru/app"
+	"github.com/GPTx-global/guru/encoding"
+	"github.com/GPTx-global/guru/ethereum/eip712"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	gethaccounts "github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/evmos/evmos-ledger-go/accounts"
 	"github.com/evmos/evmos-ledger-go/ledger"
-	"github.com/evmos/evmos/v12/app"
-	"github.com/evmos/evmos/v12/encoding"
-	"github.com/evmos/evmos/v12/ethereum/eip712"
 )
 
 // Test Mnemonic:
